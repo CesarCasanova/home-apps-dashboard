@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1e38"/>
+      <stop offset="100%" stop-color="#0d233a"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="white" stroke-opacity="0.1" stroke-width="4"/>
+
+  <!-- Outer Camera Housing -->
+  <circle cx="256" cy="240" r="140" fill="none" stroke="url(#cyanGrad)" stroke-width="16" opacity="0.8"/>
+  <circle cx="256" cy="240" r="115" fill="none" stroke="url(#tealGrad)" stroke-width="6" stroke-dasharray="12 8" opacity="0.6"/>
+
+  <!-- Camera Lens -->
+  <circle cx="256" cy="240" r="90" fill="#0f172a" stroke="url(#cyanGrad)" stroke-width="10"/>
+  <circle cx="256" cy="240" r="65" fill="#1e293b" stroke="#38bdf8" stroke-width="4"/>
+  
+  <!-- Lens Glass -->
+  <circle cx="256" cy="240" r="45" fill="url(#cyanGrad)"/>
+  <circle cx="256" cy="240" r="28" fill="#090d16"/>
+  <circle cx="245" cy="228" r="10" fill="#ffffff" opacity="0.7"/>
+  <circle cx="268" cy="250" r="4" fill="#ffffff" opacity="0.5"/>
+
+  <!-- REC Dot -->
+  <circle cx="370" cy="126" r="16" fill="#ef4444"/>
+  <circle cx="370" cy="126" r="8" fill="#fca5a5"/>
+
+  <!-- Camera Mount -->
+  <path d="M256 380 L256 420 M210 420 L302 420" stroke="url(#cyanGrad)" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Label -->
+  <text x="256" y="465" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="32" fill="#e0f2fe" text-anchor="middle" letter-spacing="3">EASY NVR</text>
+</svg>

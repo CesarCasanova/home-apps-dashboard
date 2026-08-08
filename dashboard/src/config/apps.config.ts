@@ -32,4 +32,12 @@ export const apps: AppConfig[] = [
         icon: '/metube.png',
         color: 'from-cyan-700 to-teal-700',
     },
+    {
+        id: 'easynvr',
+        name: 'EasyNVR',
+        description: 'Network Video Recorder',
+        url: 'http://localhost:10800', // Update with your EasyNVR URL
+        icon: '/easynvr.png',
+        color: 'from-teal-700 to-emerald-700',
+    },
 ];
